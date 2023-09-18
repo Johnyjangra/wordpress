@@ -3,6 +3,11 @@ import glob from "../assets/images/png/globe.png";
 
 const NavBar = () => {
   const [nav, setnav] = useState(true);
+  if (nav) {
+    document.body.classList.remove("overflow-hidden");
+  } else {
+    document.body.classList.add("overflow-hidden");
+  }
 
   return (
     <div className="bg-black">

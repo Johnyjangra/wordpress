@@ -8,7 +8,7 @@ import load from "../assets/images/svg/load.svg";
 
 const Hero = () => {
   return (
-    <div className="bg-black  ">
+    <div className="bg-black  mt-[-1px]">
       <div className="container mx-auto px-[12px] lg:pt-20 pt-10">
         <div className=" flex lg:flex-wrap lg:flex-row flex-col-reverse items-center">
           <div className="lg:w-2/5  lg:pt-[0px] pt-[24px] box-border relative z-10">
