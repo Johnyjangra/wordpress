@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "gilroy-bold";
+  src: url(../src/assets/font/gilroy-bold-cufonfonts/Gilroy-Bold.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "gilroy-heavy";
+  src: url(../src/assets/font/Gilroy-Heavy.ttf);
 }
+
+@font-face {
+  font-family: "gilroy-light";
+  src: url(../src/assets/font/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url(../src/assets/font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "gilroy-regular";
+  src: url(../src/assets/font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: "personal";
+  src: url(../src/assets/font/KonexyPersonalUse.otf);
+}
+
+/* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
